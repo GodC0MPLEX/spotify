@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+#TO view click on link : https://godc0mplex.github.io/spotify/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
