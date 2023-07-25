@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/spotify/static/css/main.a0bebf60.css",
+    "main.js": "/spotify/static/js/main.d4bafc1b.js",
+    "static/media/SaveTube.io - Vilen - _Chidiya_ Song Lyrics __ Ye Jo Jhoomta Savan Hai __ Dark Music Company __ Lyrics & You (128 kbps).mp3": "/spotify/static/media/SaveTube.io - Vilen - _Chidiya_ Song Lyrics __ Ye Jo Jhoomta Savan Hai __ Dark Music Company __ Lyrics & You (128 kbps).1d2fc629ce066527a610.mp3",
+    "static/media/Jhoome Jo Pathan MP3 Song _ Shah Rukh Khan _ Deepika _ Arijit Singh _ Vishal(MP3_160K).mp3": "/spotify/static/media/Jhoome Jo Pathan MP3 Song _ Shah Rukh Khan _ Deepika _ Arijit Singh _ Vishal(MP3_160K).81a316c6ba190b2209d2.mp3",
+    "static/media/Ve Maahi _ Kesari _ Akshay Kumar _ Parineeti Chopra _ Arijit Singh _ Asees Kaur _ Tanishk Bagchi(MP3_128K).mp3": "/spotify/static/media/Ve Maahi _ Kesari _ Akshay Kumar _ Parineeti Chopra _ Arijit Singh _ Asees Kaur _ Tanishk Bagchi(MP3_128K).d39ca26cbcfe83f4fcc2.mp3",
+    "static/media/Apna Bana Le - Bhediya _ Varun Dhawan_ Kriti Sanon_ Sachin-Jigar_ Arijit Singh_ Amitabh Bhattacharya(MP3_128K).mp3": "/spotify/static/media/Apna Bana Le - Bhediya _ Varun Dhawan_ Kriti Sanon_ Sachin-Jigar_ Arijit Singh_ Amitabh Bhattacharya(MP3_128K).4d3d14447b18c0063324.mp3",
+    "static/media/Phir Aur Kya Chahiye(PagalWorld.com.se).mp3": "/spotify/static/media/Phir Aur Kya Chahiye(PagalWorld.com.se).e16e971728146033f6dc.mp3",
+    "static/media/SaveTube.io - HO SAKE JO AYE TU ANKHIYON KE SAMNE ( OFFICIAL MUSIC VIDEO ) \u0000#SAD SONG (128 kbps).mp3": "/spotify/static/media/SaveTube.io - HO SAKE JO AYE TU ANKHIYON KE SAMNE ( OFFICIAL MUSIC VIDEO ) #SAD SONG (128 kbps).6ec6ec673726572ac0fd.mp3",
+    "static/media/SaveTube.io - Baarish by Atif Aslam _ Half Girlfriend _ Arjun Kapoor & Shraddha Kapoor _ Tanishk Bagchi _ Lyrical (128 kbps).mp3": "/spotify/static/media/SaveTube.io - Baarish by Atif Aslam _ Half Girlfriend _ Arjun Kapoor & Shraddha Kapoor _ Tanishk Bagchi _ Lyrical (128 kbps).7393c7ec811c69f6cd78.mp3",
+    "static/media/Deva.mp3": "/spotify/static/media/Deva.7c93b7dab915808ba76e.mp3",
+    "static/media/Kesariya_64(PagalWorld.com.se).mp3": "/spotify/static/media/Kesariya_64(PagalWorld.com.se).d24b3c039d2083ab6129.mp3",
+    "static/media/arijit.jpg": "/spotify/static/media/arijit.dc8cffd0bc3e64f6e0f4.jpg",
+    "static/media/Brand_logo.png": "/spotify/static/media/Brand_logo.b80b7b16bf400b00ddc0.png",
+    "static/media/barush.jpg": "/spotify/static/media/barush.593c10b6e8ee19e573f8.jpg",
+    "static/media/gatemumbai.jpg": "/spotify/static/media/gatemumbai.6076f6e202d28b948939.jpg",
+    "static/media/kesariya.jpg": "/spotify/static/media/kesariya.8fe9863e432268e8d8c4.jpg",
+    "static/media/jhoome.jpg": "/spotify/static/media/jhoome.466f3af1b1353c5575b4.jpg",
+    "static/media/banguluru.jpg": "/spotify/static/media/banguluru.d54b6c5a6c12897acd09.jpg",
+    "index.html": "/spotify/index.html",
+    "main.a0bebf60.css.map": "/spotify/static/css/main.a0bebf60.css.map",
+    "main.d4bafc1b.js.map": "/spotify/static/js/main.d4bafc1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0bebf60.css",
+    "static/js/main.d4bafc1b.js"
+  ]
+}
