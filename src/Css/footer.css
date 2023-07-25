@@ -1,0 +1,191 @@
+/* ======================footers-box============= */
+.footers-box {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ gap: 40px;
+ padding: 0px 50px;
+
+}
+
+/* ===================footerparent1============= */
+.footerparent1 {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 60px;
+}
+
+.footerchild1 {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ gap: 20px;
+}
+
+.fotext {
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ width: 15vw;
+}
+
+.fotext .textgrey {
+ color: rgb(207, 207, 207);
+ text-transform: capitalize;
+ font-size: 20px;
+ font-weight: 700;
+ font-family: sans-serif;
+}
+/* ================footer anchor=============== */
+.textg{
+ text-decoration: none;
+ text-transform: capitalize;
+ font-size: 16px;
+ color: rgba(255, 255, 255, 0.624);
+}
+.textg:hover{
+ text-decoration: underline;
+}
+
+/* =====================footerchild2========== */
+.socialmedia{
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+}
+.socialmedia .circle:hover{
+ background-color: grey;
+}
+.socialmedia .circle{
+ width: 50px;
+ height: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* border: 1px solid white; */
+ background-color: #1c1c1ce8;
+ border-radius: 50%;
+}
+.fa-brands{
+ font-size: 20px;
+}
+
+hr {
+ margin: 0px 20px;
+}
+
+/* ====footerchild2========== */
+.footerparent2{
+padding: 0px 0px 30px 0px;
+}
+.footerparent2 p {
+ color: white;
+ padding: 0px 20px 10px 20px;
+ font-size: 20px;
+ font-family: sans-serif;
+ font-weight: 600;
+}
+
+/* =======button========== */
+.buttoned{
+ padding: 6px 10px;
+ border-radius: 20px;
+background-color: transparent;
+ border: 1px solid grey;
+ color: white;
+ font-size: 15px;
+ font-family: sans-serif;
+ font-weight: 500;
+ text-decoration: none;
+ text-align: center;
+ display: none;
+}
+.buttoned:hover{
+ transform: scale(1.1);
+}
+
+
+/* ==================for mobile================*/
+@media screen and (min-width:320px) and (max-width:767px){
+/* ======================footers-box============= */
+.footers-box {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ gap: 30px;
+ padding: 0px 5px;
+
+}
+
+.footerparent1 {
+display: none;
+
+}
+hr{
+ margin-top: 20px;
+ margin: 0px 0px;
+}
+/* ====footerchild2========== */
+.footerparent2 p{
+display: none;
+ }
+/* =======button========== */
+.buttoned{
+ padding: 6px 10px;
+ border-radius: 20px;
+background-color: transparent;
+ border: 1px solid grey;
+ color: white;
+ font-size: 15px;
+ font-family: sans-serif;
+ font-weight: 500;
+ text-decoration: none;
+ text-align: center;
+ display:block;
+ margin-bottom: 10px;
+}
+.buttoned:hover{
+ transform: scale(1);
+}
+}
+
+/* ==================for tablet================*/
+@media screen and (min-width:767px) and (max-width:1019px) {
+ /* ======================footers-box============= */
+.footers-box {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ gap: 20px;
+ padding: 0px 20px;
+
+}
+/* ===================footerparent1============= */
+.footerparent1 {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 50px;
+}
+.footerchild1 {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ gap: 30px;
+}
+hr {
+ margin: 0px -20px;
+}
+.footerparent2 p {
+ color: white;
+ padding: 10px 20px 10px 20px;
+ font-size: 18px;
+ font-family: sans-serif;
+ font-weight: 600;
+}
+}

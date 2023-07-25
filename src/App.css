@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.spotifybody {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  /* background-color: yellow; */
+  gap:4px;
+  padding: 5px 10px 5px 10px;
+
+}
+
+/* =======================spotify combined=========== */
+.spotifycombined {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+/* ===================sotifybottom============ */
+.spotifybottombox{
+  background-image: linear-gradient(to right, #ae2997, #934ab2, #7d65c8, #6d77d8, #5c8ce9);
+  height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px 50px 0px 20px;
+}
+.spotifybottombox:hover{
+  cursor: pointer;
+}
+ .sotifybottoms {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-decoration: none;
+}
+
+.sotifybottoms>a {
   color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.sotifybottoms>a+a {
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottombutton{
+  padding: 15px 40px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  color:rgb(34, 34, 34);
+  font-family: sans-serif;
+  background-color: #fff;
 }
+ .bottombutton:hover{
+  transform: scale(1.1);
+  color:black;
+  background-color: #fff;
+}
+
+/* ==================for mobile================*/
+@media screen and (min-width:320px) and (max-width:767px){
+  
+.spotifybody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* background-color: #000000; */
+  background-color: transparent;
+  gap:0px;
+  padding:0px 0px;
+}
+  .spotifybottombox{
+   display: none;
+  }
+ }
+ /* ==================for tablet================*/
+@media screen and (min-width:767px) and (max-width:1019px){
+  .bottombutton{
+    padding: 5px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 1.4vw;
+    font-weight: 700;
+    color:rgb(34, 34, 34);
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+   .bottombutton:hover{
+    transform: scale(1);
+  }
+
+   }
+

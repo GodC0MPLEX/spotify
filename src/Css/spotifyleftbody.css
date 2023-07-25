@@ -1,0 +1,294 @@
+/* =====================spotifyleft-body=============== */
+.spotifyleft-body {
+ width: 25vw;
+ height: 79vh;
+ background-color: #121212;
+ border-radius: 10px;
+}
+
+/* ==========================spotifyleft-body============ */
+/* .spotifyleft-body{
+ display: flex;
+
+} */
+.spotifyleft-body .spotifyleft-body-top {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ padding: 20px 35px;
+ height: 80px;
+}
+
+.spotifyleft-body .spotifyleft-body-top a {
+ color: white;
+ text-decoration: none;
+ font-family: sans-serif;
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.spotifyleft-body .spotifyleft-body-top a+a {
+ color: white;
+ text-decoration: none;
+ font-family: sans-serif;
+ font-size: 30px;
+ font-weight: 200;
+ width: 40px;
+ height: 40px;
+ padding: 2px 10px;
+ border-radius: 50%;
+ background-color: #070707e3;
+}
+
+.spotifyleft-body .spotifyleft-body-top a+a:hover {
+ transform: scale(1.1);
+}
+
+/* ====================spotifyleft-body-mid================ */
+.spotifyleft-body-mid {
+ padding: 10px 5px 40px 25px;
+ width: 25vw;
+ height: 30vh;
+ overflow-x: hidden;
+ overflow-y: scroll;
+}
+
+.spotifyleft-body-mid1 {
+ width: 21vw;
+ height: 20vh;
+ background-color: #242424;
+ border-radius: 10px;
+ margin-bottom: 10px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ padding: 15px 20px 8px 20px;
+}
+
+.spotifyleft-body-mid1 h3 {
+ color: white;
+ font-family: sans-serif;
+ font-size: 18.73px;
+}
+
+.spotifyleft-body-mid1 h3+p {
+ color: white;
+ font-family: sans-serif;
+ font-size: 13px;
+ padding-bottom: 15px;
+}
+
+.spotifyleft-body-mid1 button {
+ width: 130px;
+ font-size: 13px;
+ font-weight: 600;
+ font-family: sans-serif;
+ text-align: center;
+ padding: 10px;
+ border-radius: 20px;
+ outline: none;
+ border: none;
+ background-color: #fff;
+}
+
+.spotifyleft-body-mid1 button:hover {
+ transform: scale(1.1);
+}
+
+.spotifyleft-body-mid2 {
+ width: 21vw;
+ height: 20vh;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+ padding: 15px 20px 8px 20px;
+ background-color: #242424;
+ border-radius: 10px;
+}
+
+.spotifyleft-body-mid2 h3 {
+ color: white;
+ font-family: sans-serif;
+ font-size: 15px;
+}
+
+.spotifyleft-body-mid2 h3+p {
+ color: white;
+ font-family: sans-serif;
+ font-size: 13px;
+ padding-bottom: 15px;
+}
+
+.spotifyleft-body-mid2 button {
+ width: 150px;
+ font-size: 13px;
+ font-weight: 600;
+ font-family: sans-serif;
+ text-align: center;
+ padding: 10px;
+ border-radius: 20px;
+ outline: none;
+ border: none;
+ background-color: #fff;
+}
+
+.spotifyleft-body-mid2 button:hover {
+ transform: scale(1.1);
+}
+
+/* =========================spotifyleft-body-bottom================= */
+.spotifyleft-body-bottom {
+ padding-top: 40px;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-bottom: 30px;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.spotifyleft-body-bottom p a {
+ padding-left: 10px;
+ text-decoration: none;
+ color: #828282;
+ text-transform: capitalize;
+ font-size: 12px;
+ font-family: sans-serif;
+}
+
+.spotifyleft-body-bottom p+p+p>a:hover {
+ text-decoration: underline;
+}
+
+
+/* =======button========== */
+.buttons {
+ margin-left: 20px;
+ padding: 6px 10px;
+ border-radius: 20px;
+ background-color: transparent;
+ border: 1px solid grey;
+ color: white;
+ font-size: 15px;
+ font-family: sans-serif;
+ font-weight: 500;
+ text-decoration: none;
+ text-align: center;
+}
+
+.buttons:hover {
+ transform: scale(1.1);
+}
+
+/* ==================for tablet================*/
+@media screen and (min-width:768px) and (max-width:1019px) {
+
+ /* =====================spotifyleft-body=============== */
+ .spotifyleft-body {
+  width: 34vw;
+  height: 79vh;
+  background-color: #121212;
+  border-radius: 10px;
+ }
+
+ .spotifyleft-body .spotifyleft-body-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px 25px;
+  height: 70px;
+ }
+
+ /* ====================spotifyleft-body-mid================ */
+ .spotifyleft-body-mid {
+  padding: 10px 5px 40px 18px;
+  width: 34vw;
+  height: 30vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ }
+
+ .spotifyleft-body-mid1 {
+  width: 30vw;
+  height: 20vh;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 20px 20px 8px 15px;
+ }
+
+ .spotifyleft-body-mid1 h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+ }
+
+ .spotifyleft-body-mid1 h3+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 13px;
+  padding-bottom: 15px;
+ }
+
+ .spotifyleft-body-mid1 button:hover {
+  transform: scale(1);
+ }
+ .spotifyleft-body-mid2 button:hover {
+  transform: scale(1);
+ }
+ .spotifyleft-body-mid2 {
+  width: 30vw;
+  height: 22vh;
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 15px 20px 8px 15px;
+ }
+
+ .spotifyleft-body-mid2 h3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+ }
+
+ .spotifyleft-body-mid2 h3+p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-bottom: 1px;
+ }
+
+ /* =========================spotifyleft-body-bottom================= */
+ .spotifyleft-body-bottom {
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 1px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+ }
+
+ .spotifyleft-body-bottom p{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+  text-decoration: none;
+  gap: 10px;
+  color: #9e9e9e;
+  text-transform: capitalize;
+  font-size: 13px;
+  word-wrap: break-word;
+  font-family: sans-serif;
+ }
+
+ .spotifyleft-body-bottom p+p+p>a:hover {
+  text-decoration: underline;
+ }
+
+}

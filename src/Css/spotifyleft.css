@@ -1,0 +1,85 @@
+
+.spotifyleft{
+width: 26vw;
+  height: 89vh;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+/* padding:5px 10px; */
+/* background-color: #d61616; */
+}
+
+/* ===============spotifyleft-header============= */
+.spotifyleft-header{
+ width: 25vw;
+ height: 20vh;
+ background-color:#121212;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+justify-content: center;
+padding-left: 20px;
+}
+.spotifyleft-header p a{
+ text-decoration: none;
+ font-size: 17px;
+ font-family: sans-serif;
+ font-weight: 700;
+ color: white;
+ letter-spacing: 1px;
+}
+.spotifyleft-header p+p>a{
+ text-decoration: none;
+ font-size: 17px;
+ font-family: sans-serif;
+ font-weight: 700;
+ color: rgb(64, 64, 64);
+}
+.spotifyleft-header p+p>a:hover{
+ color: rgb(103, 103, 103);
+}
+
+/* =========================icon  =========== */
+
+[class^="fa-sharp"]{
+ color: white;
+ font-size: 18px;
+ padding-right:15px ;
+}
+[class^="fa-solid"]{
+ padding: 1px;
+ color: white;
+ font-size: 20px;
+ padding-right:15px ;
+
+}
+/* ==================for mobile================*/
+@media screen and (min-width:320px) and (max-width:767px){
+  .spotifyleft{
+   display: none;
+  }
+ }
+
+ /* ==================for tablet================*/
+@media screen and (min-width:768px) and (max-width:1019px){
+  .spotifyleft{
+    width: 34vw;
+    height: 89vh;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+  }
+  /* ===============spotifyleft-header============= */
+.spotifyleft-header{
+  width: 34vw;
+  height: 20vh;
+  background-color:#121212;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+ justify-content: center;
+ padding-left: 20px;
+ }
+ }
